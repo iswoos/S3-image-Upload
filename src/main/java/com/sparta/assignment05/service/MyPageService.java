@@ -86,6 +86,7 @@ public class MyPageService {
                     .commentCnt(board.getCommentCnt())
                     .createdAt(board.getCreatedAt())
                     .modifiedAt(board.getModifiedAt())
+                    .image(board.getImage())
                     .build();
 
             responseList.add(response);

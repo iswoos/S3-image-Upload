@@ -122,6 +122,7 @@ public class BoardService {
                 .commentList(BoardResponse.commentToResponse(commentList))
                 .createdAt(board.getCreatedAt())
                 .modifiedAt(board.getModifiedAt())
+                .image(board.getImage())
                 .build();
         return GlobalResDto.success(response);
     }
